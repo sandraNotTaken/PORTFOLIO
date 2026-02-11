@@ -1,9 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Modern Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+<div class="bg"></div>
+
+<header>
+  <h1 class="logo">YourName</h1>
+  <nav>
+     <a href="#top">Home</a>
+     <a href="#projects">Projects</a>
+     <a href="#about">About</a>
+     <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero glass">
+  <h2>Hi 👋 I'm a Creative Developer</h2>
+  <p>I build modern and interactive web experiences.</p>
+  <button id="btn" >View Projects</button>
+</section>
+
+<section id="about" class="glass about">
+  <h2>About.</h2>
+
+  <p class="about-text">
+    I'm a frontend developer passionate about building modern,
+    responsive and interactive web experiences. I love clean UI,
+    smooth animations and solving real world problems with code.
+  </p>
+
+  <div class="tech-scroll">
+    <div class="tech-track">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Git</span>
+      <span>Figma</span>
+      <span>Responsive Design</span>
+
+      <!-- duplicate for smooth loop -->
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Git</span>
+      <span>Figma</span>
+      <span>Responsive Design</span>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects" class="cards">
+  <div class="glass card">
+    <h3>Project One</h3>
+    <p>Modern UI website with animations.</p>
+  </div>
+
+  <div class="glass card">
+    <h3>Project Two</h3>
+    <p>Cool dashboard design.</p>
+  </div>
+
+  <div class="glass card">
+    <h3>Project Three</h3>
+    <p>Interactive portfolio experience.</p>
+  </div>
+</section>
+
+<section id="contact" class="glass contact">
+  <h2>Contact.</h2>
+
+  <p>Let's build something amazing together.</p>
+
+  <div class="contact-links">
+    <a href="#">Email</a>
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Twitter</a>
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
 </html>
