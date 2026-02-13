@@ -12,12 +12,24 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:sans-serif;
+scroll-behavior: smooth;
 }
 
 body{
 background:var(--bg-main);
 color:var(--text-main);
 overflow-x:hidden;
+}
+
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: rgba(56,249,215,0.5);
+  transform: translate(-50%, -50%);
+  transition: 0.1s ease;
 }
 
 /* gradient animated background */
@@ -497,4 +509,11 @@ transform:translateX(0);
 display:flex;
 }
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
 }
