@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Modern Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body id="top">
@@ -11,7 +14,7 @@
 <div class="bg"></div>
 
 <header>
-  <h1 class="logo">YourName</h1>
+  <h1 class="logo">Sandy</h1>
   <nav>
      <a href="#top">Home</a>
      <a href="#projects">Projects</a>
@@ -23,7 +26,7 @@
 <section class="hero glass">
   <h2>Hi 👋 I'm a Creative Developer</h2>
   <p>I build modern and interactive web experiences.</p>
-  <button id="btn" >View Projects</button>
+  <button id="btn" onclick="window.location.href='#projects'">View Projects</button>
 </section>
 
 <section id="about" class="glass about">
@@ -59,20 +62,58 @@
 
 
 <section id="projects" class="cards">
-  <div class="glass card">
-    <h3>Project One</h3>
-    <p>Modern UI website with animations.</p>
+  <div class="project-card glass reveal">
+
+  <div class="project-image">
+    <img src="images/image1.png" alt="Color Palette App">
+    <div class="project-overlay">
+      <a href="https://colorschemegeneratorbysandra.netlify.app/" target="_blank">Live Demo</a>
+      <a href="#">GitHub</a>
+    </div>
   </div>
 
-  <div class="glass card">
-    <h3>Project Two</h3>
-    <p>Cool dashboard design.</p>
+  <div class="project-info">
+    <h3>Color Palette App</h3>
+    <p>Interactive tool for generating and managing color palettes.</p>
   </div>
 
-  <div class="glass card">
-    <h3>Project Three</h3>
-    <p>Interactive portfolio experience.</p>
+</div>
+
+
+  <div class="project-card glass reveal">
+
+  <div class="project-image">
+    <img src="images/image2.png" alt="Restarant Ordering App">
+    <div class="project-overlay">
+      <a href="https://sandrarestaurant.netlify.app/" target="_blank">Live Demo</a>
+      <a href="#">GitHub</a>
+    </div>
   </div>
+
+  <div class="project-info">
+    <h3>Restaurant Ordering App</h3>
+    <p>Interactive app for ordering food online with real-time updates.</p>
+  </div>
+
+</div>
+
+  <div class="project-card glass reveal">
+
+  <div class="project-image">
+    <img src="images/image3.png" alt="Learning Journal App">
+    <div class="project-overlay">
+      <a href="https://candid-pika-eb8033.netlify.app/" target="_blank">Live Demo</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+
+  <div class="project-info">
+    <h3>Learning Journal App</h3>
+    <p>Interactive app for tracking and organizing learning progress.</p>
+  </div>
+
+</div>
+
 </section>
 
 <section id="contact" class="glass contact">
