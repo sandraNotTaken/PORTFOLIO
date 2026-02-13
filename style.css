@@ -488,7 +488,7 @@ filter:blur(0);
   font-size: 1.8rem;
   color: var(--accent-main);
   margin-bottom: 10px;
-  text-shadow: 0 0 8px var(--accent-main), 0 0 16px var(--accent-secondary);
+  /* text-shadow: 0 0 8px var(--accent-main), 0 0 16px var(--accent-secondary); */
 }
 
 .footer-left p{
@@ -499,7 +499,7 @@ filter:blur(0);
 .footer-right h4{
   font-size: 1.2rem;
   margin-bottom: 12px;
-  color: var(--accent-secondary);
+  color: var(--accent-main);
 }
 
 .footer-nav a,
